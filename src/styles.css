@@ -1,0 +1,161 @@
+:root {
+  --branding-color: #E22658;
+  --secondary-color: grey;
+  --heading-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --default-font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+}
+
+nav {
+  margin: 30px;
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  font-size: 25px;
+}
+
+
+/* Hace que el menú desplegable aparezca al hacer hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  /* Ajusta el margen si es necesario */
+}
+
+/* Estilo adicional para evitar el parpadeo al mover el ratón */
+.dropdown-menu {
+  transition: visibility 0.2s, opacity 0.2s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.navbar-nav {
+  --bs-nav-link-color: var(--branding-color) !important;
+}
+
+.hero {
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 6) 100%), url(/images/VentanadelNublo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 60px;
+  margin-bottom: 40px;
+}
+
+
+.hero h1 {
+  font-size: 100px;
+  padding-top: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 70px;
+  padding: 100px;
+  text-align: center;
+  font-family: var(--default-font-family);
+}
+
+.btn-bd-primary {
+  background-color: var(--branding-color);
+  border: none;
+  border-radius: 3px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  margin: 25px auto;
+  max-width: 200px;
+  text-align: center;
+}
+
+a.btn-bd-primary {
+  text-decoration: none;
+}
+
+a.btn-bd-primary:hover {
+  text-decoration: underline;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Estilos para las secciones de imagen grande */
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.image-section {
+  max-width: 200%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Cuadrícula de enlaces de imágenes */
+.links-images {
+  display: grid;
+  gap: 80px;
+  width: 95%;
+  margin: 50px 0;
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* Estilos para las imágenes de los enlaces */
+.links-images a {
+  text-decoration: none;
+  text-align: center;
+  color: var(--branding-color);
+  font-family: var(--heading-font-family);
+}
+
+.links-images a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+  transition: ease-in-out 0.3s;
+}
+
+.links-images a img {
+  width: 95%;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  padding: 10px;
+}
+
+.links-images a img:hover {
+  transform: scale(1.05);
+}
