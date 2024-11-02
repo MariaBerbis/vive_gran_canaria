@@ -134,6 +134,10 @@ a.btn-bd-primary:hover {
   grid-template-columns: repeat(5, 1fr);
 }
 
+.grid-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
 /* Estilos para las imágenes de los enlaces */
 .links-images a {
   text-decoration: none;
