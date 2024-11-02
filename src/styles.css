@@ -104,6 +104,12 @@ a.btn-bd-primary:hover {
   margin: 0 auto;
 }
 
+h1 {
+  color: black;
+  font-size: 45px;
+
+}
+
 /* Estilos para las secciones de imagen grande */
 .section {
   width: 100%;
@@ -126,6 +132,10 @@ a.btn-bd-primary:hover {
   margin: 50px 0;
 }
 
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .grid-4 {
   grid-template-columns: repeat(4, 1fr);
 }
@@ -140,6 +150,7 @@ a.btn-bd-primary:hover {
 
 /* Estilos para las imágenes de los enlaces */
 .links-images a {
+  text-transform: uppercase;
   text-decoration: none;
   text-align: center;
   color: var(--branding-color);
