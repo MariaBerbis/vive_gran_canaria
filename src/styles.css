@@ -183,3 +183,28 @@ h1 {
 .links-images-reservas a img:hover {
   transform: scale(1.05);
 }
+
+footer .social-links a {
+  color: var(--branding-color);
+  width: 50px;
+  font-size: 20px;
+  margin: 20px 20px;
+  padding: 10px;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+}
+
+footer .signature {
+  color: var(--branding-color);
+  opacity: 0.8;
+}
+
+footer a .signature {
+  color: var(--branding-color);
+
+}
