@@ -133,6 +133,10 @@ h1 {
   margin: 50px 0;
 }
 
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .grid-4 {
   grid-template-columns: repeat(4, 1fr);
 }
@@ -184,16 +188,21 @@ h1 {
   transform: scale(1.05);
 }
 
+
+footer .social-links {
+  padding: 40px;
+}
+
 footer .social-links a {
   color: var(--branding-color);
   width: 50px;
   font-size: 20px;
   margin: 20px 20px;
-  padding: 10px;
+  padding: 15px;
 }
 
 footer .social-links a:hover {
-  color: var(--secondary-color);
+  color: white;
   background-color: var(--branding-color);
   border-radius: 50%;
   transition: all 300ms ease-in-out;
@@ -202,6 +211,7 @@ footer .social-links a:hover {
 footer .signature {
   color: var(--branding-color);
   opacity: 0.8;
+  padding: 30px;
 }
 
 footer a .signature {
