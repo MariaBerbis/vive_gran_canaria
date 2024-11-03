@@ -106,7 +106,7 @@ a.btn-bd-primary:hover {
 
 h1 {
   color: black;
-  font-size: 84px;
+  font-size: 84px !important;
 
 }
 
@@ -131,10 +131,6 @@ h1 {
   gap: 80px;
   width: 95%;
   margin: 50px 0;
-}
-
-.grid-2 {
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .grid-4 {
@@ -173,5 +169,17 @@ h1 {
 }
 
 .links-images a img:hover {
+  transform: scale(1.05);
+}
+
+.links-images-reservas a img {
+  border-radius: 50%;
+  width: 300px;
+  height: auto;
+  padding: 30px;
+  transition: transform 0.3s ease;
+}
+
+.links-images-reservas a img:hover {
   transform: scale(1.05);
 }
