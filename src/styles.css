@@ -109,8 +109,12 @@ h1 {
   font-size: 84px !important;
 }
 
-h2 .red {
+.red {
   color: red;
+}
+
+.global {
+  color: #0090AA;
 }
 
 /* Estilos para las secciones de imagen grande */
