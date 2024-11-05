@@ -107,7 +107,10 @@ a.btn-bd-primary:hover {
 h1 {
   color: black;
   font-size: 84px !important;
+}
 
+h2 .red {
+  color: red;
 }
 
 /* Estilos para las secciones de imagen grande */
