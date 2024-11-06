@@ -110,11 +110,19 @@ h1 {
 }
 
 .red {
-  color: red;
+  color: var(--branding-color);
 }
 
 .global {
   color: #0090AA;
+}
+
+.municipales {
+  color: #FFCA2C;
+}
+
+.success {
+  color: #157347;
 }
 
 /* Estilos para las secciones de imagen grande */
@@ -197,6 +205,7 @@ h1 {
 
 a.btn.btn-primary {
   background-color: #0090AA !important;
+  border: #0090AA 1px solid;
 }
 
 footer .social-links {
