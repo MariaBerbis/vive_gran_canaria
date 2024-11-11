@@ -208,11 +208,11 @@ a.btn.btn-primary {
   border: #0090AA 1px solid;
 }
 
-footer .social-links {
+.social-links {
   padding: 40px;
 }
 
-footer .social-links a {
+.social-links a {
   color: var(--branding-color);
   width: 50px;
   font-size: 20px;
@@ -220,7 +220,7 @@ footer .social-links a {
   padding: 15px;
 }
 
-footer .social-links a:hover {
+.social-links a:hover {
   color: white;
   background-color: var(--branding-color);
   border-radius: 50%;
