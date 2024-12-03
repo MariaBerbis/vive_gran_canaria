@@ -227,6 +227,11 @@ a.btn.btn-primary {
   transition: all 300ms ease-in-out;
 }
 
+/*
+.row.contact {
+  background-color: aqua;
+}*/
+
 footer .signature {
   color: var(--branding-color);
   opacity: 0.8;
